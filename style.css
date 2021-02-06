@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(R.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+h1,h2,h3{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin-top: 20px;
+}
+h2{
+    margin-top: 25px;
+}
+form{
+    max-width: 600px;
+    text-align: left;
+    margin-left: 100px;
+}
+form label{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: -5px;
+}
+form select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 400px;
+    height: 35px;
+    background:none;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    backdrop-filter: blur(3px);
+}
+form input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 20px;
+    background:none;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    backdrop-filter: blur(3px);
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+form textarea{
+    background:transparent;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    backdrop-filter: blur(3px);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: black;
+    font-size: 18px;
+}
+body .pm{
+    width: 400px;
+    height: 100px;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+.pm input{
+    margin-top: 15px;
+    width: 20px;
+    height: 15px;
+}
+.pm .rr{
+    margin-left: 10px;
+}
+.bttn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 25px auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+
+    background:none;
+    box-shadow: 1px 1px 3px black;
+    backdrop-filter: blur(2px);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table td,th{
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+}

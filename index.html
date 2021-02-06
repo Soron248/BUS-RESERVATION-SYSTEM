@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="phone.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS RESERVATION SYSTEM</title>
+</head>
+<body>
+    <h1><i class="fa fa-bus" aria-hidden="true"></i>BUS RESERVATION SYSTEM</h1>
+    <hr>
+    <h2>COUNTER</h2>
+    <form action="">
+        <label for="bus">BUS</label><br>
+        <select name="BUS" id="bus">
+            <option value="Ena Transport (Pvt) Ltd">Ena Transport (Pvt) Ltd</option>
+            <option value="Dhaka Line">Dhaka Line</option>
+            <option value="Islam Paribahan">Islam Paribahan</option>
+            <option value="Shohagh Paribahan">Shohagh Paribahan</option>
+            <option value="Green Line Paribahan">Green Line Paribahan</option>
+            <option value="Royal Coach">Royal Coach</option>
+            <option value="Shyamoli Paribahan">Shyamoli Paribahan</option>
+            <option value="Star Line Special Ltd.">Star Line Special Ltd.</option>
+        </select><br>
+
+        <label for="form" class="lbl">FROM</label><br>
+        <input required type="text" id="from"><br>
+
+        <label for="to">TO</label><br>
+        <input required type="text" id="to"><br>
+
+        <label for="doj">DATE OF JOURNEY</label><br>
+        <input required type="text" id="doj"><br>
+
+        <label for="name">NAME</label><br>
+        <input required type="text" id="name"><br>
+
+        <label for="seat">SEAT NO.</label><br>
+        <input required type="text" id="seat"><br>
+
+        <label for="reference">REFERENCE</label><br>
+        <textarea name="reference" id="reference" cols="50" rows="10" placeholder="WRITE Here...."></textarea>
+    </form>
+
+    <input type="submit" value="ADD INFO." id="btn" class="bttn">
+
+    <div class="pm">
+        <label for="payment" class="p">PAYMENT :</label><br>
+        <input type="radio" class="r" name="payment" value="ONLINE PAYMENT">ONLINE PAYMENT
+        <input type="radio" class="rr" name="payment" value="CASH PAYMENT">CASH PAYMENT
+    </div>
+
+    <h2>TICKET</h2>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>BUS</th>
+                <th>FROM</th>
+                <th>TO</th>
+                <th>DATE OF JOURNEY</th>
+                <th>NAME</th>
+                <th>SEAT NO.</th>
+                <th>REFERENCE</th>
+            </tr>
+        </thead>
+        <tbody id="addingInfo">
+        </tbody>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
